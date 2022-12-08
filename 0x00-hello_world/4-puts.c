@@ -1,12 +1,10 @@
-#!/bin/bash
 #include <stdio.h>
 /**
- * main = entry
- * puts = print function
- * return = 0
+ * main is Entry 
+ * Return: Always 0
  */
-int main (void)	
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle ");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
