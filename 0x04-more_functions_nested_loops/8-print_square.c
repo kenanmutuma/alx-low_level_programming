@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,9 +6,10 @@
  *
  * Return: void
  */
-
 int print_square(int size)
+
 {
+
 	int i, j;
 
 	for (i = 0; i < size; i++)
@@ -22,4 +22,5 @@ int print_square(int size)
 			_putchar('\n');
 	}
 	_putchar('\n');
+
 }
