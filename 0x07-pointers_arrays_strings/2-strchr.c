@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * strchr - string character
+ * _strchr - string character
  * @s: string
  * @c: another char
  * Return: string
  */
 
-char *strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	int a = 0, b;
 
