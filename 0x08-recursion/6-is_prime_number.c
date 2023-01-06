@@ -21,9 +21,9 @@ int is_prime_number(int n)
 	}
 	else
 	{
-		int i = 5;
 
-		return (is_prime_number_helper(n, i));
+
+		return (is_prime_number(n));
 	}
 
 }
