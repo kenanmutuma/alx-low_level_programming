@@ -7,7 +7,7 @@ char *_strcpy(char *dest, char *srt);
 dog_t *new_dog(char *name, float age, char *owner);
 
 /**
- *strlen - finds the length of a string
+ *_strlen - finds the length of a string
  *@str: the string
  *Return: the length of the string
  */
