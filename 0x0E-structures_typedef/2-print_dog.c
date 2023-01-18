@@ -21,8 +21,8 @@ if (d->age < 0)
 	printf("Age: (nil)\n");
 	else
 	printf("Age: %f\n", d->age);
-if (d->Owner == 0)
+if (d->owner == 0)
 	printf("Owner: (nil)\n");
 	else
-	printf("Owner: %s\n", d->Owner);
+	printf("Owner: %s\n", d->owner);
 }
