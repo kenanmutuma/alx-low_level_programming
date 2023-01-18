@@ -1,5 +1,6 @@
-clude "dog.h"
+#include "dog.h"
 #include <stdlib.h>
+#include <string.h>
 
 int _strlen(char *str);
 char *_strcpy(char *dest, char *srt);
@@ -11,7 +12,7 @@ dog_t *new_dog(char *name, float age, char *owner);
  *Return: the length of the string
  */
 
-int strlen(char *str)
+int _strlen(char *str)
 {
 	int len = 0;
 
@@ -31,7 +32,7 @@ char *strcopy(char *dest, char *src)
 	int index = 0;
 
 	for (index = 0; src[index]; index++)
-		des[index] = src[index];
+		dest[index] = src[index];
 	dest[index] = '\0';
 
 	return (dest);
@@ -68,7 +69,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(doggo);
 		return (NULL);
 	}
-	doggo->name = _strcopy(doggo->name, name);
+	doggo->name = strcopy(doggo->name, name);
 	doggo->age = age;
 	doggo->owner = strcopy(doggo->owner, owner);
 
