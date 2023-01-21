@@ -37,9 +37,9 @@ int op_mul(int a, int b)
 
 
 /**
- *op-div - calculates the division of two integers
+ *op_div - calculates the division of two integers
  *@a: the first integer
- *@b second integer
+ *@b: second integer
  *Return: the dicvision of a and b
  */
 
